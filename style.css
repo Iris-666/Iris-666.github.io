@@ -1,0 +1,292 @@
+body{
+  width, height: 100%;
+  margin: 0;
+}
+#viz{
+  background-color: rgb(252,250,242);
+  position: absolute;
+  z-index: -1
+}
+#map-container{
+  position: absolute;
+
+}
+#mapviz{
+  background-color: rgb(252,250,242);
+  position: absolute;
+  /* right: 0px; */
+  opacity: 0;
+  pointer-events: none
+}
+
+#intro{
+  position: absolute;
+  left: 67vw;
+  top: 30vh;
+  width: 27vw;
+  font-size: 20px;
+  font-family: 'Pangolin'
+
+}
+
+#hidingMap{
+  display: none;
+  background-color: rgb(252,250,242);
+  z-index: 1;
+  /* height: 2000px; */
+
+}
+.stickyMap {
+  height: 100vh;
+  width: 67%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  position: sticky;
+  pointer-events: none;
+  margin: 0;
+  padding: 0;
+  /* ps you can even make this div a flexbox to position elements inside it */
+  display: inline;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.scrollingContent{
+  left: 67vw;
+  position: relative;
+  display: inline;
+  width: 33vw;
+
+}
+.scrollingContent div{
+  position: relative;
+  /* padding: 10px; */
+  /* background-color: lightyellow; */
+  width: 33vw;
+
+  /* outline: 5px dashed lightpink; */
+
+  display: relative;
+  z-index: 100;
+  font-size: 20px;
+  font-family: 'Pangolin'
+}
+
+.total{
+  margin-bottom: 400px;
+
+  padding-top: 50vh;
+
+}
+
+.totalBook{
+  margin-bottom: 2vh;
+  padding-top: 50vh;
+
+}
+
+.totalElse{
+  padding-top: 50vh;
+  padding-bottom: 50vh;
+}
+.totalMonth{
+  padding-top: 50vh;
+}
+.totalMonthNum{
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+
+}
+.FebStory{
+  padding-top: 5vh;
+  padding-bottom: 45vh;
+
+}
+
+.scrollInstruction{
+  padding-top: 5vh;
+  padding-bottom: 45vh;
+
+}
+
+.specialCashApril1{
+  padding-bottom: 5vh;
+  margin-bottom: 45vh;
+}
+
+.specialWatchFeb1{
+  padding-bottom: 5vh;
+  margin-bottom: 0px;
+}
+.specialWatchFeb2{
+  padding-bottom: 50vh;
+  margin-bottom: 0px;
+}
+.specialWatchJan{
+  padding-bottom: 50vh;
+  margin-bottom: 0px;
+}
+.specialWatchNov{
+  padding-bottom: 50vh;
+  margin-bottom: 0px;
+}
+
+.specialCashApril2{
+  padding-bottom: 50vh;
+  margin-bottom: 0px;
+}
+.specialOtherJan{
+  padding-bottom: 50vh;
+  margin-bottom: 0px;
+}
+.specialOtherJan2{
+  padding-bottom: 50vh;
+  margin-bottom: 0px;
+}
+.specialOtherDec{
+  padding-bottom: 50vh;
+  margin-bottom: 0px;
+}
+
+.specialOtherMar{
+  padding-bottom: 50vh;
+  margin-bottom: 0px;
+}
+.specialDogs{
+  padding-bottom: 10vh;
+  margin-bottom: 0px;
+}
+.specialDogsLast{
+  padding-bottom: 50vh;
+  margin-bottom: 0px;
+}
+
+
+.specialOtherNov{
+  padding-bottom: 50vh;
+  margin-bottom: 0px;
+}
+
+.specialBookApr0{
+  padding-bottom: 10vh;
+  margin-bottom: 0px;
+}
+.specialBookApr1{
+  padding-bottom: 10vh;
+  margin-bottom: 0px;
+}
+.specialBookApr2{
+  padding-bottom: 10vh;
+  margin-bottom: 0px;
+}
+.specialBookApr3{
+  padding-bottom: 10vh;
+  margin-bottom: 0px;
+}
+.specialBookApr4{
+  padding-bottom: 50vh;
+  margin-bottom: 0px;
+}
+.specialBookMar0{
+  padding-bottom: 10vh;
+  margin-bottom: 0px;
+}
+.specialBookMar1{
+  padding-bottom: 10vh;
+  margin-bottom: 0px;
+}
+.specialBookMar2{
+  padding-bottom: 10vh;
+  margin-bottom: 0px;
+}
+.specialBookMar3{
+  padding-bottom: 50vh;
+  margin-bottom: 0px;
+}
+.specialBookFeb{
+  padding-bottom: 50vh;
+  margin-bottom: 0px;
+}
+.specialBookJan0{
+  padding-bottom: 10vh;
+  margin-bottom: 0px;
+}
+.specialBookJan1{
+  padding-bottom: 10vh;
+  margin-bottom: 0px;
+}
+.specialBookJan2{
+  padding-bottom: 50vh;
+  margin-bottom: 0px;
+}
+
+.specialBookDec0{
+  padding-bottom: 10vh;
+  margin-bottom: 0px;
+}
+.specialBookDec1{
+  padding-bottom: 10vh;
+  margin-bottom: 0px;
+}
+.specialBookDec2{
+  padding-bottom: 10vh;
+  margin-bottom: 0px;
+}
+.specialBookDec3{
+  padding-bottom: 10vh;
+  margin-bottom: 0px;
+}
+.specialBookDec4{
+  padding-bottom: 10vh;
+  margin-bottom: 0px;
+}
+.specialBookDec5{
+  padding-bottom: 10vh;
+  margin-bottom: 0px;
+}
+.specialBookDec6{
+  padding-bottom: 50vh;
+  margin-bottom: 0px;
+}
+
+.specialBookNov0{
+  padding-bottom: 10vh;
+  margin-bottom: 0px;
+}
+.specialBookNov1{
+  padding-bottom: 10vh;
+  margin-bottom: 0px;
+}
+.specialBookNov2{
+  padding-bottom: 10vh;
+  margin-bottom: 0px;
+}
+.specialBookNov3{
+  padding-bottom: 10vh;
+  margin-bottom: 0px;
+}
+.specialBookNov4{
+  padding-bottom: 10vh;
+  margin-bottom: 0px;
+}
+.specialBookNov5{
+  padding-bottom: 10vh;
+  margin-bottom: 0px;
+}
+
+.specialBookNov6{
+  padding-bottom: 50vh;
+  margin-bottom: 0px;
+}
+.specialJewJan{
+  padding-bottom: 50vh;
+  margin-bottom: 0px;
+}
+
+
+
+.title{
+  text-anchor: middle;
+
+}
